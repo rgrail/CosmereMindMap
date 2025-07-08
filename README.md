@@ -19,3 +19,17 @@ Edges represent co-mentions within the same chapter or scene.
 Edge weight increases based on the frequency of co-mentions, highlighting stronger character relationships or repeated narrative intersections.
 
 
+
+
+# Files 
+```
+├── README.md      # Project overview
+├── PaP.ipynb      # Test mindmap using Pride and Prejudice text
+├── TWoK_Coppermind.ipynb      # Jupyter notebook on mindmap for coppermind summaries
+├── TWoK_Coppermind.py      # Python file on mindmap for coppermind summaries
+├── data/
+│   ├── TWoK_chapter_summaries.csv      # raw data for coppermind summaries, made personally
+│   └── Pride_and_Prejudice.txt      # raw Pride and Prejudice text gotten from Project Gutenberg
+├── src/
+│   └── text_cleaner.py      # text cleaning pipeline for using throughout project
+```
